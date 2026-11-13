@@ -29,7 +29,8 @@ package com.aop;
 							"register.jsp",
 							"UserServlet",
 							"share.jsp",       // 允许打开分享页面
-						    "ShareServlet"   // 允许处理分享请求（生成、验证、下载）
+						    "ShareServlet",
+						    "api/search"   // 允许处理分享请求（生成、验证、下载）
 					};
 					
 					
