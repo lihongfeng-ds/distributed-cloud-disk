@@ -21,6 +21,14 @@
 4. 将项目部署至 Tomcat 服务器并启动。
 
 ## 👨‍💻 作者
-**[李红枫]** 
+**李红枫** 
 - 邮箱：[1928971092@qq.com]
 - 求职意向：数据开发 / Java后端开发实习生
+
+## 🤖 AI Agent 智能模块 (最新扩展)
+集成 Python 与大语言模型 (DeepSeek)，实现自然语言对话式文件检索。
+- **微服务架构**：Python 作为独立的 AI 服务，通过 HTTP 接口与 Java 后端解耦交互。
+- **Function Calling**：利用大模型解析用户意图，自动提取关键词并调用后端 HDFS 搜索接口。
+- **前端界面**：基于 Gradio 快速构建响应式聊天 UI。
+
+<img width="3072" height="1826" alt="屏幕截图 2026-11-13 112700_AI看图" src="https://github.com/user-attachments/assets/1bee2291-27c0-42fa-a03d-cefedadbb7e9" />
